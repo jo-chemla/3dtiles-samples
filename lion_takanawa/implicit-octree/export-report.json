@@ -1,0 +1,18 @@
+{
+  "method": "crawl",
+  "source": "https://3dtiled.iconem.com/stream/tileset.json?url=https://raw.githubusercontent.com/potree/potree/develop/pointclouds/lion_takanawa/cloud.js",
+  "outDir": "C:\\Users\\jonathan\\AppData\\Local\\Temp\\3dtiles-samples-src\\lion_takanawa_implicit",
+  "tilesets": 1,
+  "tilesDiscovered": 295,
+  "tilesWritten": 295,
+  "bytes": 7804728,
+  "failed": 0,
+  "implicitExpanded": 0,
+  "implicitKept": 1,
+  "phase": "done",
+  "elapsedMs": 9501,
+  "maxDepth": null,
+  "keepImplicit": true,
+  "packages": [],
+  "failures": []
+}
