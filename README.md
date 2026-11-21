@@ -13,3 +13,7 @@ The Potree `lion_takanawa` point cloud (from the [potree](https://github.com/pot
 `lion_takanawa/implicit-octree/tileset-x100.json` is the same set of tiles with a root transform scale of 100 and the geometric errors scaled to match: the model is 464 m wide, so it is visible from a few hundred metres (viewers whose camera starts far out, such as the 3DTilesRendererJS kitchen sink at 690 m, show it immediately; zoom out past ~1 km and an additive-skip bug makes it vanish).
 
 Produced by `3dtiled export --keep-implicit` from a [3dtiled](https://github.com/jo-chemla/3d-tiles-converters) stream of the original cloud, no depth cap.
+
+## lion_takanawa/lion_takanawa.3tz
+
+`lion_takanawa/lion_takanawa.3tz` (7.9 MB) is the `implicit-octree` folder above packed into one [3D Tiles archive](https://github.com/erikdahlstrom/3tz-specification) (`tileset.json` at its root, `tileset-x100.json` beside it). GitHub Pages answers range requests on it with CORS `*`, so a viewer can read it in place without unpacking it, for example 3DTilesRendererJS with [3d-tiles-renderer-3tz](https://github.com/zalmoxes-laran/3d-tiles-renderer-3tz). Packed with `scripts/pack-3dtiles.mjs` from [3dtiled](https://github.com/jo-chemla/3d-tiles-converters).
